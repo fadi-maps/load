@@ -22,7 +22,7 @@ animationLoad = document.querySelector(".rotate-scroll");
 main = document.querySelector("main");
 h4.innerHTML = "h4";
 h3.after(h4);
-document.onload =function() {
+div.onload =function() {
   animationLoad.style = "display:none;";
   main.style = "display:block;";
 };
