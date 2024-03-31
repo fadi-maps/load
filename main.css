@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    display: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: white;
+}
+button{
+    width: 50px;
+}
+.lamp{
+    background-color: gray;
+    border-radius: 50%;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    box-shadow:0 0 0px 0px rgb(0, 0, 0);
+    transition: 0.1s linear;
+}
+.container{
+    text-align: center;
+}
+.rotate-scroll{
+    width: 50px;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 50%;
+    border-color: black red ;
+    animation: rotate 10s infinite linear;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(3600deg);
+
+    }
+}
